@@ -12,15 +12,15 @@
 <body>
   <header class="site-header">
     <div class="container nav-inner">
-      <a href="./" class="brand-link" aria-label="tunevo">
+      <a href="index.html" class="brand-link" aria-label="tunevo">
         <span class="brand-logo-wrap"><img src="assets/images/tunevo-logo.png" alt="tunevo logo"></span>
         <span class="brand-wordmark">tunevo</span>
       </a>
       <nav aria-label="Primary Navigation">
         <ul class="nav-links">
-          <li><a href="./" data-i18n-en="Games" data-i18n-fr="Jeux">Games</a></li>
-          <li><a href="cubefit/">CubeFit</a></li>
-          <li><a href="support/" data-i18n-en="Support" data-i18n-fr="Support">Support</a></li>
+          <li><a href="index.html" data-i18n-en="Games" data-i18n-fr="Jeux">Games</a></li>
+          <li><a href="cubefit.html">CubeFit</a></li>
+          <li><a href="support.html" data-i18n-en="Support" data-i18n-fr="Support">Support</a></li>
         </ul>
       </nav>
       <div class="nav-actions">
@@ -38,9 +38,9 @@
 
   <div class="mobile-drawer" id="mobileDrawer">
     <ul>
-      <li><a href="./" data-i18n-en="Games" data-i18n-fr="Jeux">Games</a></li>
-      <li><a href="cubefit/">CubeFit</a></li>
-      <li><a href="support/" data-i18n-en="Support" data-i18n-fr="Support">Support</a></li>
+      <li><a href="index.html" data-i18n-en="Games" data-i18n-fr="Jeux">Games</a></li>
+      <li><a href="cubefit.html">CubeFit</a></li>
+      <li><a href="support.html" data-i18n-en="Support" data-i18n-fr="Support">Support</a></li>
     </ul>
   </div>
 
@@ -143,15 +143,25 @@
         <span>&copy; 2026</span>
       </div>
       <div class="footer-legal-links">
-        <a href="./" data-i18n-en="Home" data-i18n-fr="Accueil">Home</a>
-        <a href="cubefit/">CubeFit</a>
-        <a href="support/" data-i18n-en="Support" data-i18n-fr="Support">Support</a>
-        <a href="privacy/" data-i18n-en="Privacy Policy" data-i18n-fr="Politique de confidentialité">Privacy Policy</a>
-        <a href="terms/" data-i18n-en="Terms" data-i18n-fr="Conditions d'utilisation">Terms</a>
-        <a href="gdpr/" data-i18n-en="GDPR" data-i18n-fr="RGPD">GDPR</a>
+        <a href="index.html" data-i18n-en="Home" data-i18n-fr="Accueil">Home</a>
+        <a href="cubefit.html">CubeFit</a>
+        <a href="support.html" data-i18n-en="Support" data-i18n-fr="Support">Support</a>
+        <a href="privacy.html" data-i18n-en="Privacy Policy" data-i18n-fr="Politique de confidentialité">Privacy Policy</a>
+        <a href="terms.html" data-i18n-en="Terms of Service" data-i18n-fr="Conditions d'utilisation">Terms of Service</a>
+        <a href="gdpr.html" data-i18n-en="GDPR" data-i18n-fr="RGPD">GDPR</a>
+        <a href="data-deletion.html" data-i18n-en="Data Deletion" data-i18n-fr="Suppression des données">Data Deletion</a>
+        <button type="button" data-open-cookie-banner data-i18n-en="Cookies" data-i18n-fr="Cookies">Cookies</button>
       </div>
     </div>
   </footer>
+
+  <div class="cookie-banner" id="cookieBanner" role="region" aria-label="Cookie Consent">
+    <p data-i18n-en="We use essential storage for your language preference and optional cookies with your consent." data-i18n-fr="Nous utilisons un stockage minimal pour votre langue et des cookies optionnels avec votre accord.">We use essential storage for your language preference and optional cookies with your consent.</p>
+    <div class="cookie-actions">
+      <button type="button" class="btn btn-outline" data-cookie-action="reject-optional" data-i18n-en="Decline" data-i18n-fr="Refuser">Decline</button>
+      <button type="button" class="btn btn-primary" data-cookie-action="accept-all" data-i18n-en="Accept" data-i18n-fr="Accepter">Accept</button>
+    </div>
+  </div>
 
   <script src="assets/js/main.js"></script>
 </body>
