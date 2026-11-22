@@ -206,7 +206,7 @@
 
         var status = document.getElementById('supportStatus');
         if (status) status.classList.add('visible');
-        window.location.href = 'mailto:support@tunevo.si?subject=' + subject + '&body=' + body;
+        window.location.href = 'mailto:tunevo.game@gmail.com?subject=' + subject + '&body=' + body;
       });
     }
 

@@ -14,7 +14,7 @@ Minimalist studio website for **tunevo** featuring **CubeFit** on Google Play, b
 | **Terms of Use (EULA) URL** | `https://tunevo.si/terms` |
 | **GDPR & Consent Center** | `https://tunevo.si/gdpr` |
 | **Data Deletion URL / Suppression des données** | `https://tunevo.si/data-deletion` |
-| **Support URL / Support Email** | `https://tunevo.si/support` (`support@tunevo.si`) |
+| **Support URL / Support Email** | `https://tunevo.si/support` (`tunevo.game@gmail.com`) |
 | **Authorized Sellers (`app-ads.txt`)** | `https://tunevo.si/app-ads.txt` |
 
 > Both clean URLs (`/privacy`, `/privacy/`) and `.html` URLs (`/privacy.html`) are included and resolve identically on any static host.
@@ -24,7 +24,7 @@ Minimalist studio website for **tunevo** featuring **CubeFit** on Google Play, b
 ## Pre-Launch Checklist / Vérifications avant mise en ligne
 
 1. **Update `app-ads.txt`**: Replace `pub-0000000000000000` (AdMob) and `YOUR_UNITY_ORG_ID` (Unity Ads) with your live publisher IDs before enabling live ad mediation.
-2. **Email Routing (`tunevo.si`)**: Configure forwarding or mailboxes for `support@tunevo.si` and `privacy@tunevo.si`.
+2. **Email Routing (`tunevo.si`)**: Configure forwarding or a mailbox for `privacy@tunevo.si` (player support is routed directly to `tunevo.game@gmail.com`).
 
 ---
 
