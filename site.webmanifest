@@ -1,7 +1,7 @@
 {
   "name": "tunevo — Playful 3D Puzzle Games",
   "short_name": "tunevo",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",
