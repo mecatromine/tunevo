@@ -1,0 +1,15 @@
+{
+  "name": "Tunevo — Mobile Puzzle Studio",
+  "short_name": "Tunevo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070D1F",
+  "theme_color": "#070D1F",
+  "icons": [
+    {
+      "src": "assets/images/tunevo-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

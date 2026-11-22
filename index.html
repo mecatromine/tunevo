@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tunevo — Mobile Puzzle Studio &amp; Creators of CubeFit</title>
+  <meta name="description" content="Tunevo is an independent mobile game studio crafting tactile 3D puzzle experiences. Discover CubeFit: 600+ handcrafted voxel construction puzzles for iOS and Android.">
+  <meta name="theme-color" content="#070D1F">
+  <link rel="canonical" href="https://tunevo.si/">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/tunevo-logo.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tunevo.si/">
+  <meta property="og:title" content="Tunevo — Mobile Puzzle Studio &amp; Creators of CubeFit">
+  <meta property="og:description" content="Playful 3D worlds crafted to fit. Explore CubeFit, our flagship 3D voxel puzzle game with 600 handcrafted levels on iOS &amp; Android.">
+  <meta property="og:image" content="https://tunevo.si/assets/images/cubefit-poster.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="./" class="brand-link" aria-label="Tunevo Home">
+        <span class="brand-logo-wrap">
+          <img src="assets/images/tunevo-logo.png" alt="Tunevo logo">
+        </span>
+        <span class="brand-wordmark">tunevo<span class="brand-dot">.si</span></span>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#top" class="active" data-i18n-en="Home" data-i18n-fr="Accueil">Home</a></li>
+          <li><a href="#cubefit" data-i18n-en="CubeFit" data-i18n-fr="CubeFit">CubeFit</a></li>
+          <li><a href="#studio" data-i18n-en="Studio" data-i18n-fr="Studio">Studio</a></li>
+          <li><a href="#compliance" data-i18n-en="Trust &amp; Legal" data-i18n-fr="Légal &amp; RGPD">Trust &amp; Legal</a></li>
+          <li><a href="support/" data-i18n-en="Support" data-i18n-fr="Support">Support</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language switch">
+          <button type="button" class="lang-btn active" data-set-lang="en">EN</button>
+          <button type="button" class="lang-btn" data-set-lang="fr">FR</button>
+        </div>
+        <a href="cubefit/" class="btn btn-primary nav-cta" data-i18n-en="Explore CubeFit" data-i18n-fr="Découvrir CubeFit">Explore CubeFit</a>
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul>
+      <li><a href="#top" data-i18n-en="Home" data-i18n-fr="Accueil">Home</a></li>
+      <li><a href="#cubefit" data-i18n-en="CubeFit — Flagship Game" data-i18n-fr="CubeFit — Jeu phare">CubeFit — Flagship Game</a></li>
+      <li><a href="#studio" data-i18n-en="About Tunevo" data-i18n-fr="À propos de Tunevo">About Tunevo</a></li>
+      <li><a href="privacy/" data-i18n-en="Privacy Policy" data-i18n-fr="Politique de confidentialité">Privacy Policy</a></li>
+      <li><a href="terms/" data-i18n-en="Terms of Service" data-i18n-fr="Conditions d'utilisation">Terms of Service</a></li>
+      <li><a href="gdpr/" data-i18n-en="GDPR &amp; Cookies" data-i18n-fr="RGPD &amp; Cookies">GDPR &amp; Cookies</a></li>
+      <li><a href="support/" data-i18n-en="Support" data-i18n-fr="Support">Support</a></li>
+    </ul>
+  </div>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div>
+          <div class="studio-badge">
+            <span class="studio-badge-dots" aria-hidden="true">
+              <span style="background: var(--tunevo-orange)"></span>
+              <span style="background: var(--tunevo-yellow)"></span>
+              <span style="background: var(--tunevo-teal)"></span>
+              <span style="background: var(--tunevo-green)"></span>
+              <span style="background: var(--tunevo-pink)"></span>
+            </span>
+            <span data-i18n-en="TUNEVO MOBILE GAMES STUDIO" data-i18n-fr="STUDIO DE JEUX MOBILES TUNEVO">TUNEVO MOBILE GAMES STUDIO</span>
+          </div>
+
+          <h1 class="hero-title" data-lang-block="en">
+            Playful <span class="gradient-text">3D Puzzle</span><br>Worlds Crafted to Fit.
+          </h1>
+          <h1 class="hero-title" data-lang-block="fr">
+            Des mondes <span class="gradient-text">Puzzle 3D</span><br>pensés pour captiver.
+          </h1>
+
+          <p class="hero-subtitle" data-i18n-en="At Tunevo, we build tactile, joyful casual games where vibrant art, instant intuition, and satisfying spatial mechanics come together for players worldwide." data-i18n-fr="Chez Tunevo, nous créons des jeux casual tactiles et joyeux où direction artistique vibrante, prise en main immédiate et puzzles spatiaux gratifiants se rencontrent pour les joueurs du monde entier.">
+            At Tunevo, we build tactile, joyful casual games where vibrant art, instant intuition, and satisfying spatial mechanics come together for players worldwide.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#cubefit" class="btn btn-primary" data-i18n-en="Discover CubeFit" data-i18n-fr="Découvrir CubeFit">Discover CubeFit</a>
+            <a href="#studio" class="btn btn-outline-light" data-i18n-en="Our Studio DNA" data-i18n-fr="Notre ADN Studio">Our Studio DNA</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <strong>600+</strong>
+              <span data-i18n-en="Handcrafted 3D Levels" data-i18n-fr="Niveaux 3D conçus à la main">Handcrafted 3D Levels</span>
+            </div>
+            <div class="stat-item">
+              <strong>15</strong>
+              <span data-i18n-en="Progressive Puzzle Worlds" data-i18n-fr="Mondes de progression">Progressive Puzzle Worlds</span>
+            </div>
+            <div class="stat-item">
+              <strong>iOS &amp; Android</strong>
+              <span data-i18n-en="Native 60 FPS Polish" data-i18n-fr="Fluidité native 60 FPS">Native 60 FPS Polish</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="floating-chip chip-top">
+            <img src="assets/images/cubefit-icon.png" alt="CubeFit App Icon">
+            <div>
+              <div style="font-size: 0.72rem; color: #7EE4FF;" data-i18n-en="FLAGSHIP TITLE" data-i18n-fr="TITRE PHARE">FLAGSHIP TITLE</div>
+              <div>CubeFit</div>
+            </div>
+          </div>
+
+          <div class="phone-showcase">
+            <img src="assets/images/cubefit-phone-home.png" alt="CubeFit Home Screen Showcase">
+          </div>
+
+          <div class="floating-chip chip-bottom">
+            <span style="width: 12px; height: 12px; border-radius: 50%; background: var(--cubefit-green); display: inline-block;"></span>
+            <div>
+              <div style="font-size: 0.72rem; color: var(--ink-light-muted);" data-i18n-en="SPATIAL PUZZLE" data-i18n-fr="PUZZLE SPATIAL">SPATIAL PUZZLE</div>
+              <div data-i18n-en="Snap, Rotate &amp; Solve" data-i18n-fr="Orientez, Posez &amp; Validez">Snap, Rotate &amp; Solve</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="brand-ribbon" aria-hidden="true"></div>
+
+    <!-- Dedicated CubeFit Flagship Section -->
+    <section class="section-light" id="cubefit">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n-en="OUR FLAGSHIP GAME" data-i18n-fr="NOTRE JEU PHARE">OUR FLAGSHIP GAME</span>
+          <h2 class="section-title" data-i18n-en="Meet CubeFit — Tactile 3D Shape Building" data-i18n-fr="Découvrez CubeFit — Construction 3D Tactile">Meet CubeFit — Tactile 3D Shape Building</h2>
+          <p class="section-desc" data-i18n-en="Observe the target 3D model, rotate colorful voxel pieces with intuitive gestures, and assemble every sculpture inside the grid before time runs out." data-i18n-fr="Observez le modèle 3D cible, orientez les pièces colorées d'un geste fluide et assemblez chaque sculpture sur le plateau avant la fin du chrono.">
+            Observe the target 3D model, rotate colorful voxel pieces with intuitive gestures, and assemble every sculpture inside the grid before time runs out.
+          </p>
+        </div>
+
+        <article class="cubefit-flagship">
+          <div class="cubefit-info">
+            <div class="cubefit-app-row">
+              <img src="assets/images/cubefit-icon.png" alt="CubeFit Official Icon" class="cubefit-icon">
+              <div>
+                <h3>CubeFit</h3>
+                <div class="cubefit-meta-tags">
+                  <span class="tag-pill cyan" data-i18n-en="3D Spatial Puzzle" data-i18n-fr="Puzzle Spatial 3D">3D Spatial Puzzle</span>
+                  <span class="tag-pill green" data-i18n-en="Free to Play" data-i18n-fr="Gratuit">Free to Play</span>
+                  <span class="tag-pill">com.tunevo.cubefit</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="cubefit-lead" data-i18n-en="Guided by your cheerful cactus companion, CubeFit turns spatial logic into a cozy, tactile delight. Enjoy responsive drag-and-drop placement, live piece rotation previews, 4 strategic power-ups, and an offline-ready campaign spanning 600 handcrafted levels." data-i18n-fr="Accompagné de votre mascotte cactus expressive, CubeFit transforme la logique spatiale en un plaisir tactile et chaleureux. Profitez d'un placement fluide, d'aperçus de rotation en direct, de 4 bonus stratégiques et d'une campagne jouable hors ligne de 600 niveaux.">
+              Guided by your cheerful cactus companion, CubeFit turns spatial logic into a cozy, tactile delight. Enjoy responsive drag-and-drop placement, live piece rotation previews, 4 strategic power-ups, and an offline-ready campaign spanning 600 handcrafted levels.
+            </p>
+
+            <ul class="cubefit-bullets">
+              <li><span class="bullet-dot" style="background: var(--cubefit-cyan)"></span><span data-i18n-en="600+ Unique Voxel Puzzles" data-i18n-fr="600+ Puzzles Voxel uniques">600+ Unique Voxel Puzzles</span></li>
+              <li><span class="bullet-dot" style="background: var(--cubefit-green)"></span><span data-i18n-en="Live Rotation Preview Dock" data-i18n-fr="Barre d'aperçu de rotation">Live Rotation Preview Dock</span></li>
+              <li><span class="bullet-dot" style="background: var(--cubefit-gold)"></span><span data-i18n-en="Hint, Compass, Magnet &amp; Freeze" data-i18n-fr="Indice, Boussole, Aimant &amp; Gel">Hint, Compass, Magnet &amp; Freeze</span></li>
+              <li><span class="bullet-dot" style="background: var(--tunevo-pink)"></span><span data-i18n-en="Cactus &amp; Pot Customizer" data-i18n-fr="Personnalisation Cactus &amp; Pot">Cactus &amp; Pot Customizer</span></li>
+            </ul>
+
+            <div class="store-buttons" id="stores">
+              <a href="https://play.google.com/store/apps/details?id=com.tunevo.cubefit" target="_blank" rel="noopener noreferrer" class="store-badge" aria-label="Get CubeFit on Google Play">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.61 1.814L13.793 12 3.61 22.186a1.75 1.75 0 0 1-.46-1.2V3.014c0-.463.173-.89.46-1.2zm11.244 11.245l2.707 2.707-10.74 6.137 8.033-8.844zm3.82-1.915l2.373 1.356c.62.354.62 1.246 0 1.6l-2.373 1.356-2.963-2.963 2.963-1.349zm-4.881-2.203L6.821 2.097l10.74 6.137-2.707 2.707z"/></svg>
+                <span class="store-badge-text">
+                  <small data-i18n-en="GET IT ON" data-i18n-fr="DISPONIBLE SUR">GET IT ON</small>
+                  <strong>Google Play</strong>
+                </span>
+              </a>
+
+              <a href="cubefit/" class="store-badge" aria-label="Download CubeFit on the App Store">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.33c.68-.83 1.14-1.98 1.01-3.13-.98.04-2.17.65-2.87 1.48-.63.73-1.18 1.9-1.03 3.02 1.1.08 2.21-.55 2.89-1.37z"/></svg>
+                <span class="store-badge-text">
+                  <small data-i18n-en="COMING TO" data-i18n-fr="BIENTÔT SUR">COMING TO</small>
+                  <strong>App Store</strong>
+                </span>
+              </a>
+
+              <a href="cubefit/" class="btn btn-outline-dark" data-i18n-en="Full Game Page &rarr;" data-i18n-fr="Page complète du jeu &rarr;">Full Game Page &rarr;</a>
+            </div>
+
+            <div class="cubefit-legal-strip">
+              <span data-i18n-en="Store Links:" data-i18n-fr="Liens Store :">Store Links:</span>
+              <a href="privacy/" data-i18n-en="Privacy Policy" data-i18n-fr="Confidentialité">Privacy Policy</a>
+              <a href="terms/" data-i18n-en="Terms of Service" data-i18n-fr="CGU">Terms of Service</a>
+              <a href="gdpr/" data-i18n-en="GDPR Center" data-i18n-fr="Centre RGPD">GDPR Center</a>
+              <a href="data-deletion/" data-i18n-en="Data Deletion" data-i18n-fr="Suppression des données">Data Deletion</a>
+              <a href="support/" data-i18n-en="Player Support" data-i18n-fr="Support Joueur">Player Support</a>
+            </div>
+          </div>
+
+          <div class="cubefit-media-pane">
+            <img src="assets/images/cubefit-poster.jpg" alt="CubeFit 3D Puzzle Artwork">
+          </div>
+        </article>
+
+        <!-- Core Features -->
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon" style="background: rgba(19, 184, 228, 0.14); color: #087EA1;">3D</div>
+            <h4 data-i18n-en="Intuitive Spatial Play" data-i18n-fr="Jeu Spatial Intuitif">Intuitive Spatial Play</h4>
+            <p data-i18n-en="Snap colorful polycube pieces into place with responsive drag controls, left-handed mode, and reduced-motion accessibility." data-i18n-fr="Placez des pièces polycubes avec un glisser-déposer fluide, un mode gaucher et une option d'animations réduites.">
+              Snap colorful polycube pieces into place with responsive drag controls, left-handed mode, and reduced-motion accessibility.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon" style="background: rgba(244, 123, 52, 0.14); color: #D45611;">&#8635;</div>
+            <h4 data-i18n-en="Smart Rotation Dock" data-i18n-fr="Dock de Rotation Intelligent">Smart Rotation Dock</h4>
+            <p data-i18n-en="Preview your exact Turn and Tilt outcomes live beside your selected piece—plus instant 1-step undo whenever you need it." data-i18n-fr="Visualisez l'aperçu exact de chaque rotation horizontale ou verticale avant de valider, avec annulation directe en un geste.">
+              Preview your exact Turn and Tilt outcomes live beside your selected piece—plus instant 1-step undo whenever you need it.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon" style="background: rgba(246, 185, 23, 0.18); color: #B37E00;">&#10052;</div>
+            <h4 data-i18n-en="4 Tactical Boosters" data-i18n-fr="4 Bonus Tactiques">4 Tactical Boosters</h4>
+            <p data-i18n-en="Use Hint, Compass, Magnet, and the 10-second Time Freeze clock blocker to conquer the toughest multi-layer challenges." data-i18n-fr="Utilisez Indice, Boussole, Aimant et le Gel du Temps (10 secondes) pour réussir les défis les plus complexes.">
+              Use Hint, Compass, Magnet, and the 10-second Time Freeze clock blocker to conquer the toughest multi-layer challenges.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon" style="background: rgba(57, 201, 47, 0.14); color: #1F8717;">&#9733;</div>
+            <h4 data-i18n-en="Cozy Cactus Companion" data-i18n-fr="Mascotte Cactus Évolutive">Cozy Cactus Companion</h4>
+            <p data-i18n-en="Customize your cactus character, flower accessories, pot shape, and color palettes as you earn stars across 15 puzzle worlds." data-i18n-fr="Personnalisez votre mascotte cactus, son pot et ses couleurs au fil de votre progression dans les 15 mondes.">
+              Customize your cactus character, flower accessories, pot shape, and color palettes as you earn stars across 15 puzzle worlds.
+            </p>
+          </div>
+        </div>
+
+        <!-- Screenshots Gallery -->
+        <div class="gallery-grid">
+          <div class="gallery-card" data-lightbox-src="assets/images/cubefit-phone-gameplay.png" data-lightbox-alt="CubeFit 3D Grid Gameplay">
+            <img src="assets/images/cubefit-phone-gameplay.png" alt="CubeFit 3D Grid Gameplay" loading="lazy">
+            <div class="gallery-caption" data-i18n-en="3D Voxel Grid Assembly" data-i18n-fr="Assemblage 3D sur plateau">3D Voxel Grid Assembly</div>
+          </div>
+          <div class="gallery-card" data-lightbox-src="assets/images/cubefit-screen-freeze.png" data-lightbox-alt="CubeFit Time Freeze Booster">
+            <img src="assets/images/cubefit-screen-freeze.png" alt="CubeFit Time Freeze Booster" loading="lazy">
+            <div class="gallery-caption" data-i18n-en="Time Freeze &amp; Boosters" data-i18n-fr="Gel du Temps &amp; Bonus">Time Freeze &amp; Boosters</div>
+          </div>
+          <div class="gallery-card" data-lightbox-src="assets/images/cubefit-screen-profile.png" data-lightbox-alt="CubeFit Mascot Customizer">
+            <img src="assets/images/cubefit-screen-profile.png" alt="CubeFit Mascot Customizer" loading="lazy">
+            <div class="gallery-caption" data-i18n-en="Mascot &amp; Pot Customizer" data-i18n-fr="Atelier Cactus &amp; Pots">Mascot &amp; Pot Customizer</div>
+          </div>
+          <div class="gallery-card" data-lightbox-src="assets/images/cubefit-screen-shop.png" data-lightbox-alt="CubeFit Shop &amp; Bundles">
+            <img src="assets/images/cubefit-screen-shop.png" alt="CubeFit Shop &amp; Bundles" loading="lazy">
+            <div class="gallery-caption" data-i18n-en="Optional Shop &amp; No-Ads" data-i18n-fr="Boutique &amp; Pack Sans Pub">Optional Shop &amp; No-Ads</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Studio Philosophy (Grand Games / Loop Games Style) -->
+    <section class="section-dark" id="studio">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n-en="ABOUT TUNEVO" data-i18n-fr="À PROPOS DE TUNEVO">ABOUT TUNEVO</span>
+          <h2 class="section-title" data-i18n-en="Built on Polish, Tactile Joy &amp; Player Trust" data-i18n-fr="Fondé sur le soin, le plaisir tactile et la confiance">Built on Polish, Tactile Joy &amp; Player Trust</h2>
+          <p class="section-desc" data-i18n-en="Tunevo builds original mobile puzzle experiences designed to feel effortlessly responsive from your very first tap." data-i18n-fr="Tunevo développe des expériences de puzzle mobiles originales, pensées pour offrir une prise en main fluide et gratifiante dès la première seconde.">
+            Tunevo builds original mobile puzzle experiences designed to feel effortlessly responsive from your very first tap.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <div class="pillar-card">
+            <span class="pillar-num" style="color: var(--tunevo-orange);">01</span>
+            <h3 data-i18n-en="Tactile Craftsmanship" data-i18n-fr="Finition Tactile">Tactile Craftsmanship</h3>
+            <p data-i18n-en="Every snap, bounce, haptic tick, and rotation preview is tuned in-house so solving puzzles feels physical, calm, and deeply satisfying." data-i18n-fr="Chaque clic, rebond, vibration haptique et aperçu de rotation est calibré avec précision pour offrir un ressenti physique et apaisant.">
+              Every snap, bounce, haptic tick, and rotation preview is tuned in-house so solving puzzles feels physical, calm, and deeply satisfying.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <span class="pillar-num" style="color: var(--tunevo-teal);">02</span>
+            <h3 data-i18n-en="Play Offline, Anywhere" data-i18n-fr="Jouable Hors Ligne">Play Offline, Anywhere</h3>
+            <p data-i18n-en="Your CubeFit progress lives safely on your device with zero forced account sign-ups. Jump into a puzzle on a flight, commute, or couch." data-i18n-fr="Votre progression CubeFit est sauvegardée localement sans création de compte obligatoire. Lancez une partie à tout moment, même hors connexion.">
+              Your CubeFit progress lives safely on your device with zero forced account sign-ups. Jump into a puzzle on a flight, commute, or couch.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <span class="pillar-num" style="color: var(--tunevo-pink);">03</span>
+            <h3 data-i18n-en="Privacy &amp; GDPR First" data-i18n-fr="Confidentialité &amp; RGPD">Privacy &amp; GDPR First</h3>
+            <p data-i18n-en="We enforce strict consent-before-SDK initialization, transparent data practices, easy purchase restoration, and instant progress reset controls." data-i18n-fr="Nous appliquons le consentement préalable avant l'initialisation des SDK tiers, une transparence totale et des contrôles simples de suppression et restauration.">
+              We enforce strict consent-before-SDK initialization, transparent data practices, easy purchase restoration, and instant progress reset controls.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store Compliance & Legal Center -->
+    <section class="section-light" id="compliance">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n-en="TRUST &amp; STORE COMPLIANCE" data-i18n-fr="CONFIANCE &amp; CONFORMITÉ STORES">TRUST &amp; STORE COMPLIANCE</span>
+          <h2 class="section-title" data-i18n-en="Official Legal, GDPR &amp; Support Resources" data-i18n-fr="Ressources Légales, RGPD &amp; Support Officielles">Official Legal, GDPR &amp; Support Resources</h2>
+          <p class="section-desc" data-i18n-en="Direct verified pages for players, regulators, Google Play Console, and Apple App Store Connect." data-i18n-fr="Pages officielles destinées aux joueurs, aux autorités de protection des données ainsi qu'à Google Play Console et Apple App Store Connect.">
+            Direct verified pages for players, regulators, Google Play Console, and Apple App Store Connect.
+          </p>
+        </div>
+
+        <div class="compliance-grid">
+          <a href="privacy/" class="compliance-card">
+            <div>
+              <h3 data-i18n-en="Privacy Policy" data-i18n-fr="Politique de Confidentialité">Privacy Policy</h3>
+              <p data-i18n-en="Full disclosure of local game saves, Unity Ads / AdMob consent flows, IAP processing, retention, and COPPA / GDPR compliance." data-i18n-fr="Détails complets sur la sauvegarde locale, le consentement publicitaire, les achats intégrés, la conservation et la conformité RGPD.">
+                Full disclosure of local game saves, Unity Ads / AdMob consent flows, IAP processing, retention, and COPPA / GDPR compliance.
+              </p>
+            </div>
+            <span class="compliance-link">tunevo.si/privacy &rarr;</span>
+          </a>
+
+          <a href="terms/" class="compliance-card">
+            <div>
+              <h3 data-i18n-en="Terms of Service &amp; EULA" data-i18n-fr="Conditions d'Utilisation (CGU)">Terms of Service &amp; EULA</h3>
+              <p data-i18n-en="License terms, virtual currencies, non-consumable purchase restoration, store billing rules, and intellectual property rights." data-i18n-fr="Conditions de licence, monnaies virtuelles, restauration des achats, règles des boutiques officielles et propriété intellectuelle.">
+                License terms, virtual currencies, non-consumable purchase restoration, store billing rules, and intellectual property rights.
+              </p>
+            </div>
+            <span class="compliance-link">tunevo.si/terms &rarr;</span>
+          </a>
+
+          <a href="gdpr/" class="compliance-card">
+            <div>
+              <h3 data-i18n-en="GDPR &amp; Consent Center" data-i18n-fr="Centre RGPD &amp; Préférences">GDPR &amp; Consent Center</h3>
+              <p data-i18n-en="Manage web cookies, review your EU GDPR Art. 15–22 &amp; CCPA rights, or withdraw in-app ad/analytics consent anytime." data-i18n-fr="Gérez vos cookies, consultez vos droits RGPD (Art. 15–22) et CCPA, ou retirez votre consentement publicitaire à tout moment.">
+                Manage web cookies, review your EU GDPR Art. 15–22 &amp; CCPA rights, or withdraw in-app ad/analytics consent anytime.
+              </p>
+            </div>
+            <span class="compliance-link">tunevo.si/gdpr &rarr;</span>
+          </a>
+
+          <a href="data-deletion/" class="compliance-card">
+            <div>
+              <h3 data-i18n-en="Data Deletion Request" data-i18n-fr="Suppression des Données">Data Deletion Request</h3>
+              <p data-i18n-en="Required Google Play Data Safety portal: step-by-step local reset instructions plus direct advertising ID erasure requests." data-i18n-fr="Portail conforme Google Play Sécurité des données : instructions de réinitialisation locale et demande d'effacement d'identifiants.">
+                Required Google Play Data Safety portal: step-by-step local reset instructions plus direct advertising ID erasure requests.
+              </p>
+            </div>
+            <span class="compliance-link">tunevo.si/data-deletion &rarr;</span>
+          </a>
+
+          <a href="support/" class="compliance-card">
+            <div>
+              <h3 data-i18n-en="Player Support &amp; FAQ" data-i18n-fr="Support Joueur &amp; FAQ">Player Support &amp; FAQ</h3>
+              <p data-i18n-en="Get help with CubeFit controls, Restore Purchases, boosters, or submit a direct ticket to support@tunevo.si." data-i18n-fr="Aide sur les commandes CubeFit, la restauration des achats, les bonus ou envoi direct d'un ticket à support@tunevo.si.">
+                Get help with CubeFit controls, Restore Purchases, boosters, or submit a direct ticket to support@tunevo.si.
+              </p>
+            </div>
+            <span class="compliance-link">tunevo.si/support &rarr;</span>
+          </a>
+
+          <a href="app-ads.txt" class="compliance-card">
+            <div>
+              <h3 data-i18n-en="Authorized Sellers (app-ads.txt)" data-i18n-fr="Vendeurs Autorisés (app-ads.txt)">Authorized Sellers (app-ads.txt)</h3>
+              <p data-i18n-en="IAB Tech Lab verified app-ads.txt endpoint ready for Google AdMob and Unity Ads inventory verification." data-i18n-fr="Fichier app-ads.txt conforme IAB Tech Lab prêt pour la vérification Google AdMob et Unity Ads.">
+                IAB Tech Lab verified app-ads.txt endpoint ready for Google AdMob and Unity Ads inventory verification.
+              </p>
+            </div>
+            <span class="compliance-link">tunevo.si/app-ads.txt &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="./" class="brand-link">
+            <span class="brand-logo-wrap">
+              <img src="assets/images/tunevo-logo.png" alt="Tunevo Logo">
+            </span>
+            <span class="brand-wordmark">tunevo<span class="brand-dot">.si</span></span>
+          </a>
+          <p data-i18n-en="Tunevo is a mobile puzzle studio crafting joyful, tactile 3D experiences for players worldwide." data-i18n-fr="Tunevo est un studio de jeux mobiles créant des expériences de puzzle 3D tactiles et joyeuses pour les joueurs du monde entier.">
+            Tunevo is a mobile puzzle studio crafting joyful, tactile 3D experiences for players worldwide.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n-en="Games" data-i18n-fr="Jeux">Games</h4>
+          <ul>
+            <li><a href="cubefit/">CubeFit (iOS &amp; Android)</a></li>
+            <li><a href="#cubefit" data-i18n-en="Features &amp; Gallery" data-i18n-fr="Fonctionnalités &amp; Galerie">Features &amp; Gallery</a></li>
+            <li><a href="support/" data-i18n-en="Game Guide &amp; FAQ" data-i18n-fr="Guide du jeu &amp; FAQ">Game Guide &amp; FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n-en="Legal &amp; Privacy" data-i18n-fr="Légal &amp; Confidentialité">Legal &amp; Privacy</h4>
+          <ul>
+            <li><a href="privacy/" data-i18n-en="Privacy Policy" data-i18n-fr="Politique de confidentialité">Privacy Policy</a></li>
+            <li><a href="terms/" data-i18n-en="Terms of Service" data-i18n-fr="Conditions d'utilisation">Terms of Service</a></li>
+            <li><a href="gdpr/" data-i18n-en="GDPR &amp; Cookie Center" data-i18n-fr="Centre RGPD &amp; Cookies">GDPR &amp; Cookie Center</a></li>
+            <li><a href="data-deletion/" data-i18n-en="Data Deletion" data-i18n-fr="Suppression des données">Data Deletion</a></li>
+            <li><button type="button" data-open-cookie-banner data-i18n-en="Cookie Settings" data-i18n-fr="Paramètres des cookies">Cookie Settings</button></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n-en="Contact" data-i18n-fr="Contact">Contact</h4>
+          <ul>
+            <li><a href="support/" data-i18n-en="Player Support" data-i18n-fr="Support Joueur">Player Support</a></li>
+            <li><a href="mailto:support@tunevo.si">support@tunevo.si</a></li>
+            <li><a href="mailto:privacy@tunevo.si">privacy@tunevo.si</a></li>
+            <li><a href="app-ads.txt">app-ads.txt</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Tunevo (tunevo.si). <span data-i18n-en="All rights reserved." data-i18n-fr="Tous droits réservés.">All rights reserved.</span></span>
+        <span data-i18n-en="CubeFit • Package ID: com.tunevo.cubefit" data-i18n-fr="CubeFit • Identifiant : com.tunevo.cubefit">CubeFit • Package ID: com.tunevo.cubefit</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="imageLightbox" aria-hidden="true" role="dialog" aria-label="Screenshot preview">
+    <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
+    <img src="" alt="">
+  </div>
+
+  <!-- GDPR Cookie Consent Banner -->
+  <div class="cookie-banner" id="cookieBanner" role="region" aria-label="Cookie Consent">
+    <p data-i18n-en="We use essential storage for language preferences and optional cookies only with your consent. Read our Privacy Policy or customize GDPR settings anytime." data-i18n-fr="Nous utilisons un stockage essentiel pour vos préférences de langue et des cookies optionnels uniquement avec votre accord. Consultez notre Politique de confidentialité ou gérez le RGPD à tout moment.">
+      We use essential storage for language preferences and optional cookies only with your consent. Read our Privacy Policy or customize GDPR settings anytime.
+    </p>
+    <div class="cookie-actions">
+      <a href="gdpr/" class="btn btn-outline-light" data-i18n-en="Preferences" data-i18n-fr="Préférences">Preferences</a>
+      <button type="button" class="btn btn-outline-light" data-cookie-action="reject-optional" data-i18n-en="Essential Only" data-i18n-fr="Refuser">Essential Only</button>
+      <button type="button" class="btn btn-green" data-cookie-action="accept-all" data-i18n-en="Accept All" data-i18n-fr="Tout accepter">Accept All</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
