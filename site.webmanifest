@@ -1,10 +1,10 @@
 {
-  "name": "Tunevo — Mobile Puzzle Studio",
-  "short_name": "Tunevo",
+  "name": "tunevo — Playful 3D Puzzle Games",
+  "short_name": "tunevo",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#070D1F",
-  "theme_color": "#070D1F",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
   "icons": [
     {
       "src": "assets/images/tunevo-logo.png",
