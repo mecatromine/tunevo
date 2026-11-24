@@ -1,13 +1,9 @@
 # Authorized Digital Sellers (app-ads.txt) for Tunevo (https://tunevo.si)
 # App: CubeFit (com.tunevo.cubefit)
 # Specification: IAB Tech Lab app-ads.txt v1.0
-#
-# ACTION BEFORE LIVE AD MONETIZATION:
-# Replace pub-0000000000000000 and YOUR_UNITY_ORG_ID with your real AdMob Publisher ID
-# and Unity Ads Organization ID from your AdMob / Unity Monetization dashboard.
 
-# Google AdMob (example format — replace with your live pub-ID):
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# Unity Ads (Organization Core ID: 727691)
+unity3d.com, 727691, DIRECT, 96cabb5fbdde37a7
 
-# Unity Ads (example format — replace with your live Unity Ads organization ID):
-# unity3d.com, YOUR_UNITY_ORG_ID, DIRECT
+# Unity LevelPlay / ironSource (add your Publisher ID from LevelPlay -> Account -> API):
+# ironsrc.com, YOUR_IRONSOURCE_PUBLISHER_ID, DIRECT
